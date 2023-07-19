@@ -29,8 +29,11 @@
     }
     .game-img-containar {
         flex-direction: column;
-        gap: 40px;
+        margin: 0 10px;
 
+    }
+    .nav-section {
+        margin-left: 0%;
     }
     .play-containar {
         flex-direction: column;
@@ -45,17 +48,29 @@
         align-items: center;
     }
     .games-name{
-        flex-direction: column-reverse;
-        
+        flex-direction: column-reverse;  
+    }
+    .games-name1{
+        flex-direction: column-reverse;  
     }
     .pic-taitel{
 
     }
     .footer-section{
         background: #0b0223;
-        max-width: 576px;
-        margin-left: 100px;
-
+    }
+    .banner-cointain {
+        flex-direction: column;
+      }
+    .play-section {
+        margin-left: 0px;
+    }
+    .play-img{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .online-game-pra{
+        text-align: center;
     }
 
 }
