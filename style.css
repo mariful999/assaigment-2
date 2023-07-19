@@ -55,7 +55,7 @@
   padding-left: 250px;
 }
 .banner-img-scetion {
-  position: relative;
+  /* position: relative; */
   padding-left: 50px;
 }
 .banner-img {
@@ -122,7 +122,7 @@
 .game-img-containar {
   display: flex;
   justify-content: center;
-
+  cursor: pointer;
 }
 div img {
   width: 70%;
@@ -140,12 +140,14 @@ div img {
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 0;
+  text-align: right;
 }
 .play-pra {
   color: #534c64;
   font-size: 10px;
   font-weight: 300;
   margin-bottom: 0;
+  text-align: right;
 }
 .p {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -178,6 +180,8 @@ div img {
   align-items: center;
   border-radius: 20px;
   gap: 10px;
+  cursor: pointer;
+  padding: 10px;
 }
 .pic {
   width: 40px;
@@ -232,7 +236,7 @@ div img {
   font-size: 10px;
   font-weight: 500;
 }
-.footer-contain-icon{
+.footer-contain-icon {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -247,4 +251,23 @@ div img {
   font-size: 10px;
   font-weight: 500;
   margin-top: 30px;
+}
+.pic-taitel:hover {
+  color: red;
+  border-radius: 50px;
+  background-color: rgb(244, 244, 99);
+}
+.contact-icon {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 2px 3px;
+  text-align: center;
+}
+.contact-icon img {
+  width: 30px;
+}
+
+.display-none {
+  display: none;
 }

@@ -1,10 +1,17 @@
 /* mobil responsive */
 @media screen and (max-width: 576px) {
     .nav-section {
-        flex-direction: column;  
+        flex-direction: column; 
+        margin-left: 50%;
     }
     .nav-button {
         flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .contact-icon {
+        padding: 0;
+        text-align: center;
     }
     .nav-button a {
         margin-top: 35px;
@@ -18,6 +25,37 @@
     }
     .banner-titel{
         padding-left: 50px;
+        text-align: center;
+    }
+    .game-img-containar {
+        flex-direction: column;
+        gap: 40px;
+
+    }
+    .play-containar {
+        flex-direction: column;
+    }
+    .play-taitel {
+        text-align: center;
+    }
+    .play-pra{
+        text-align: center;
+    }
+    .play-img-section{
+        align-items: center;
+    }
+    .games-name{
+        flex-direction: column-reverse;
+        
+    }
+    .pic-taitel{
+
+    }
+    .footer-section{
+        background: #0b0223;
+        max-width: 576px;
+        margin-left: 100px;
+
     }
 
 }
