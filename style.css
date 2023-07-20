@@ -132,6 +132,32 @@
 .game-img img{
   width: 100%;
 }
+.watch-container{
+  position: relative;
+}
+.watch-container:hover .watch{
+display: flex;
+}
+.watch{
+  position: absolute;
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+.watch img{
+  width: 35px;
+  margin-right: 10px;
+}
+
 /* div img {
   width: 70%;
   margin: 0 auto;
